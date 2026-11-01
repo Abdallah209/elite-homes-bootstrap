@@ -18,8 +18,8 @@
         <link rel="stylesheet" href="Css/Style.css">
     </head>
 
-    <body>
-        <nav class="navbar">
+    <body data-bs-spy="scroll" data-bs-target="#mainNavbar" data-bs-offset="100" tabindex="0">
+        <nav id="mainNavbar" class="navbar">
             <div class="container d-flex justify-content-between align-items-center">
                 <a class="navbar-brand" href="#">EliteHomes</a>
                 <div class="d-flex align-items-center">
@@ -139,11 +139,9 @@
                 <p class="hero-subtitle">Discover exceptional properties in prime locations. From modern condos to
                     luxury estates, we help you find the perfect place to call home.</p>
 
-                <!-- Floating Search Box -->
                 <div class="search-box-card">
                     <form action="#" method="GET">
                         <div class="row g-3">
-                            <!-- Row 1 -->
                             <div class="col-md-4">
                                 <label class="search-box-label">Location</label>
                                 <input type="text" class="search-control"
@@ -169,7 +167,6 @@
                                 </select>
                             </div>
 
-                            <!-- Row 2 -->
                             <div class="col-md-3">
                                 <label class="search-box-label">Bedrooms</label>
                                 <select class="search-control">
@@ -686,9 +683,9 @@
                 </p>
                 <div class="testimonial-slider">
                     <input type="radio" name="testimonial" id="review1" checked>
-                    <input type="radio" name="testimonial" id="review2" >
-                    <input type="radio" name="testimonial" id="review3" >
-                    <input type="radio" name="testimonial" id="review4" >
+                    <input type="radio" name="testimonial" id="review2">
+                    <input type="radio" name="testimonial" id="review3">
+                    <input type="radio" name="testimonial" id="review4">
 
                     <div class="testimonial-item review1">
                         <div class="testimonial-card text-start bg-white rounded-4 p-4 p-md-5 shadow">
@@ -703,9 +700,11 @@
                                 <span class="text-dark">5.0 out of 5</span>
                             </div>
                             <p class="fs-5 text-secondary lh-base mb-4">
-                                "As first-time investors, we were nervous about entering
-                                the real estate market. EliteHomes provided incredible
-                                guidance and helped us build a successful portfolio."
+                                "As first-time investors, we were nervous about entering the real estate market. The
+                                EliteHomes investment team provided
+                                incredible guidance and helped us build a portfolio that's already generating 18% annual
+                                returns. Their expertise is
+                                unmatched."
                             </p>
                             <div class="d-flex align-items-center gap-3">
                                 <img src="Images/avatar-1.jpg" class="rounded-circle" width="70" height="70"
@@ -738,22 +737,25 @@
                                 <span class="text-dark">5.0 out of 5</span>
                             </div>
                             <p class="fs-5 text-secondary lh-base mb-4">
-                                "EliteHomes made buying our first family home an amazing
-                                experience. Their team understood exactly what we needed
-                                and helped us find our dream house."
+                                "Selling our Manhattan penthouse was stress-free thanks to EliteHomes. They marketed it
+                                beautifully, brought qualified
+                                buyers, and we sold for 15% above asking price in just 10 days. Their professional
+                                photography and staging made all the
+                                difference."
+
                             </p>
                             <div class="d-flex align-items-center gap-3">
                                 <img src="Images/avatar-2.jpg" class="rounded-circle" width="70" height="70"
                                     style="object-fit: cover;">
                                 <div>
                                     <h6 class="fw-bold text-dark mb-1">
-                                        Sarah Johnson
+                                        Amanda Chen
                                     </h6>
                                     <p class="text-secondary mb-0">
-                                        Homeowner
+                                        Manhattan Seller
                                     </p>
                                     <small class="text-muted">
-                                        First-Time Home Buyer
+                                        Sold $3.2M Penthouse
                                     </small>
                                 </div>
                             </div>
@@ -773,22 +775,25 @@
                                 <span class="text-dark">5.0 out of 5</span>
                             </div>
                             <p class="fs-5 text-secondary lh-base mb-4">
-                                "Our company needed to relocate to a larger office space.
-                                EliteHomes found us the perfect building with flexible
-                                lease terms and great amenities."
+                                "EliteHomes made our home buying experience absolutely seamless. Sarah and her team went
+                                above and beyond to help us
+                                find the perfect family home in Beverly Hills. Their market knowledge and negotiation
+                                skills saved us over $100,000 on
+                                our purchase. We couldn't be happier!"
+
                             </p>
                             <div class="d-flex align-items-center gap-3">
                                 <img src="Images/avatar-3.jpg" class="rounded-circle" width="70" height="70"
                                     style="object-fit: cover;">
                                 <div>
                                     <h6 class="fw-bold text-dark mb-1">
-                                        Michael Foster
+                                        Jennifer & Mark Thompson
                                     </h6>
                                     <p class="text-secondary mb-0">
-                                        CEO, TechStart Inc.
+                                        Beverly Hills Homeowners
                                     </p>
                                     <small class="text-muted">
-                                        15,000 sq ft Office Lease
+                                        Purchased $2.8M Family Estate
                                     </small>
                                 </div>
                             </div>
@@ -808,9 +813,11 @@
                                 <span class="text-dark">5.0 out of 5</span>
                             </div>
                             <p class="fs-5 text-secondary lh-base mb-4">
-                                "Our company needed to relocate to a larger office space.
-                                EliteHomes found us the perfect building with flexible
-                                lease terms and great amenities."
+                                "Our company needed to relocate to a larger office space quickly. EliteHomes' commercial
+                                team found us the perfect
+                                building in downtown Austin with flexible lease terms and great amenities. They handled
+                                everything professionally and
+                                efficiently."
                             </p>
                             <div class="d-flex align-items-center gap-3">
                                 <img src="Images/avatar-4.jpg" class="rounded-circle" width="70" height="70"
